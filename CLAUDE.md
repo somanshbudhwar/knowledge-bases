@@ -93,3 +93,4 @@ Operations: `ingest`, `query`, `lint`, `update`.
 - Prefer updating existing pages over creating new ones — avoid fragmentation.
 - When in doubt about structure, ask the human before writing.
 - Keep pages skimmable: use bullet points and short paragraphs over dense prose.
+- **Never commit editor/tool config files** (e.g. `.obsidian/`, `.vscode/`, `.idea/`). These must be added to `.gitignore` before any commit. If you notice such files as untracked, add them to `.gitignore` immediately and do not stage them.
